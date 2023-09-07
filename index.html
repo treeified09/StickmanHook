@@ -1,26 +1,37 @@
-<!--
-Game Bootstrapper
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Stickman Hook Unblocked - ubg235 Poki</title>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1,, user-scalable=0"
+        />
 
-@author Kasper Mol <kasper@poki.com>
-@copyright Poki 2017
--->
-<!doctype HTML>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <style>
+            html,
+            body {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                margin: 0;
+                padding: 0;
+                border: 0;
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                background-color: black;
+            }
+            canvas {
+                width: 100%;
+            }
+        </style>
 
-	<title>Crossy Road Unblocked - ubg235 Poki</title>
-
-	<link rel="stylesheet" href="style.css" />
-	<link rel="stylesheet" async href="app-store-interstitial.css" />
-
-	<script src="patch/js/poki-sdk.js"></script>
-
-	<script src="scripts/extra.min.js"></script>
-</head>
-<body>
-	<script src="scripts/bootstrap.min.js"></script>
-  <script src="js/analytics_ubg_v1_4.js"></script>
-</body>
+        <!-- Poki SDK -->
+        <script src="patch/js/poki-sdk.js"></script>
+    </head>
+    <body>
+        <script src="bundle.js"></script>
+        <script src="js/analytics_ubg_v1_4.js"></script>
+    </body>
 </html>
